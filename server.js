@@ -6,6 +6,7 @@ const {client} = require('./client')
 const app = express()
 
 /**
+ * https://www.youtube.com/watch?v=Vx2zPMPvmug&t=1981s
  * Step 1 : Install docker 
  * Step 2 : Install Redis stack image on docker https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/docker/
  *          Command - docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
